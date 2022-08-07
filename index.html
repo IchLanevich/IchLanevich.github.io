@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Portfolio site</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="/assets/logo.svg" alt="" />
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="home">
+        <section class="hero-text">
+          <p class="first-text">Hi, my name is</p>
+          <h1>Moh. Auffa Maulana</h1>
+          <h2>UI Designer</h2>
+          <p>
+            Im a ui designer and front end developer student for the <br />
+            past 3 month, currently learning from internet.
+          </p>
+        </section>
+        <section class="btn-container">
+          <a href="mailto: aufalana12@gmail.com"
+            ><button class="cta-solid">Email me!</button></a
+          >
+          <a href="/assets/cv.png" download="" onclick="popUp()"
+            ><button class="cta-outline">Download CV</button></a
+          >
+        </section>
+      </article>
+      <article id="about">
+        <div class="about-container">
+          <div class="biodata">
+            <img src="/assets/profile.jpg" alt="profile-picture" height="200" />
+            <section class="role-detail">
+              <span>UI/UX</span>
+              <span>Front End</span>
+            </section>
+            <section class="table-container">
+              <table>
+                <tr>
+                  <td>Name</td>
+                  <td>:</td>
+                  <td>Moh. Auffa Maulana</td>
+                </tr>
+                <tr>
+                  <td>Gender</td>
+                  <td>:</td>
+                  <td>Male</td>
+                </tr>
+                <tr>
+                  <td>Birthdate</td>
+                  <td>:</td>
+                  <td>24-04-04, Barabai</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>:</td>
+                  <td>aufalana12@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Hobby</td>
+                  <td>:</td>
+                  <td>Watching YouTube</td>
+                </tr>
+              </table>
+            </section>
+          </div>
+          <div class="about-me">
+            <h3>About me</h3>
+            <p>
+              Hello! 👋, my name is Moh. Auffa Maulana im from Indonesia, i've
+              been learning about UI/UX Design and Front End for the past 2
+              month, i like design and programming, i love to learn some new
+              thing, and to keep move on.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="work-experiences">
+        <div class="work-container">
+          <h3>Work experiences</h3>
+          <div class="work-exp">
+            <h4>Freelance Graphic Designer</h4>
+            <ul>
+              <li>T-Shirt Design</li>
+              <li>Poster Design</li>
+              <li>Thumbnail Design</li>
+              <li>UI Design</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article id="recent-work">
+        <h3>Recent work</h3>
+        <section class="first-row">
+          <div class="card">
+            <img
+              src="/assets/recent-work img/1.png"
+              alt="Login Page UI Design"
+              class="images"
+            />
+            <p>Login Page UI Design</p>
+          </div>
+          <div class="card">
+            <img src="/assets/recent-work img/2.jpg" alt="T-Shirt Design" />
+            <p>T-Shirt Design</p>
+          </div>
+        </section>
+        <section class="second-row">
+          <div class="card">
+            <img
+              src="/assets/recent-work img/3.jpg"
+              alt="YouTube Banner Design"
+            />
+            <p>YouTube Banner Design</p>
+          </div>
+        </section>
+      </article>
+      <article id="hire-me">
+        <div class="hire-container">
+          <h3>Im available to hire!</h3>
+          <a href="mailto: aufalana12@gmail.com"><button>Hire me!</button></a>
+        </div>
+      </article>
+      <article id="social-media">
+        <div class="sm-container-all">
+          <div class="socmed-container">
+            <h3>Social media</h3>
+          </div>
+          <section class="sm-info">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/IchLanevich"
+                  target="_blank"
+                  class="sm-link"
+                  ><button>
+                    <i class="fa-brands fa-github"></i>@IchLanevich
+                  </button></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.behance.net/mohauffamaulana"
+                  target="_blank"
+                  class="sm-link"
+                  ><button>
+                    <i class="fa-brands fa-square-behance"></i>@mohauffamaulana
+                  </button></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/auffa_lana/"
+                  target="_blank"
+                  class="sm-link"
+                  ><button>
+                    <i class="fa-brands fa-instagram"></i>@auffa_lana
+                  </button></a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+  </body>
+  <footer>
+    <a href="https://fontawesome.com/">Icon from Fontawesome</a>
+  </footer>
+  <script
+    src="https://kit.fontawesome.com/eeacd3538c.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
