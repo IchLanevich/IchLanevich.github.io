@@ -244,6 +244,7 @@ border-radius: 6px;
     padding: 12px 24px;
     background-color: var(--secondary-color);
     border-radius: 8px;
+    margin: 0 0 1em 0;
 }
 
 .work-container h4 {
